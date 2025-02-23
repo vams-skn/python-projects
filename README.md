@@ -54,4 +54,4 @@ No. | Name
 2 | [Dice](https://github.com/vams-skn/python-projects/tree/main/Dice)
 3 | [TicTacToe](https://github.com/vams-skn/python-projects/tree/main/TicTacToe)
 4 | [Client Server TicTacToe](https://github.com/vams-skn/python-projects/tree/main/Client%20Server%20TicTacToe)
-5 | [Rock Paper Scissors](https://github.com/vams-skn/python-projects/tree/main/Rock%20Paper%20Scissor)
+5 | [Rock Paper Scissors](https://github.com/vams-skn/python-projects/tree/main/Rock%20Paper%20Scissors)
