@@ -6,14 +6,14 @@ A collection of Python projects I've made over the years.
 
 Follow these steps to clone and run any of the projects on your local machine:  
 
-### Prerequisites  
-Ensure you have the following installed:  
-- [Python](https://www.python.org/downloads/) (latest stable version recommended)  
-- [Git](https://git-scm.com/downloads)  
+### Prerequisites
+Ensure you have the following installed:
+- [Git](https://git-scm.com/downloads)
+- [Python](https://www.python.org/downloads/) (latest stable version recommended)
 
 ### Steps  
 
-1. **Clone the Repository**  
+1. Clone the Repository  
    
    Open your terminal or command prompt and run:  
    ```bash
@@ -24,7 +24,7 @@ Ensure you have the following installed:
    cd python-projects
    ```
 
-2. **Navigate to Required Project Folder & Install Dependencies**  
+2. Navigate to Required Project Folder & Install Dependencies
    
    A few of the projects may have dependencies. Navigate to the project folder and install the required packages:  
    ```bash
@@ -36,7 +36,7 @@ Ensure you have the following installed:
    pip install <package-name>
    ```
 
-3. **Run the Project**  
+3. Run the Project
    
    Execute the Python script:  
    ```bash
