@@ -55,3 +55,5 @@ No. | Name
 3 | [TicTacToe](https://github.com/vams-skn/python-projects/tree/main/TicTacToe)
 4 | [Client Server TicTacToe](https://github.com/vams-skn/python-projects/tree/main/Client%20Server%20TicTacToe)
 5 | [Rock Paper Scissors](https://github.com/vams-skn/python-projects/tree/main/Rock%20Paper%20Scissors)
+6 | [Rock Paper Scissors Lizard Spock](https://github.com/vams-skn/python-projects/tree/main/Rock%20Paper%20Scissors%20Lizard%20Spock)
+7 | [Fortune Cookie](https://github.com/vams-skn/python-projects/tree/main/Fortune%20Cookie)
