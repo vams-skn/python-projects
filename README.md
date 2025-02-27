@@ -11,7 +11,7 @@ Ensure you have the following installed:
 - [Git](https://git-scm.com/downloads)
 - [Python](https://www.python.org/downloads/) (latest stable version recommended)
 
-### Steps  
+### Steps
 
 1. Clone the Repository  
    
@@ -58,3 +58,4 @@ No. | Name
 6 | [Rock Paper Scissors Lizard Spock](https://github.com/vams-skn/python-projects/tree/main/Rock%20Paper%20Scissors%20Lizard%20Spock)
 7 | [Fortune Cookie](https://github.com/vams-skn/python-projects/tree/main/Fortune%20Cookie)
 8 | [Chatbot](https://github.com/vams-skn/python-projects/tree/main/Chatbot)
+9 | [Random Password Generator](https://github.com/vams-skn/python-projects/tree/main/Random%20Password%20Generator)
