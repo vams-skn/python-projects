@@ -7,7 +7,7 @@ spc = '!@#$%&?'
 
 def printPass(pswd):
     random.shuffle(pswd)
-    print('Here is your password:', ''.join(pswd))
+    print('Here is your password:', ''.join(pswd), '\n')
 
 def easy():
     n = random.randint(6, 8)
@@ -25,31 +25,25 @@ def medium():
     pswd = random.choices(spc, k = spcnum) + random.choices(num, k = numnum) + random.choices(upperalpha, k = upnum) + random.choices(loweralpha, k = len - spcnum - upnum - numnum)
     printPass(pswd)
 
-# def hard():
-#     len = random.randint(12, 16)
-#     pswd = [
-#         random.choice(upperalpha),
-#         random.choice(upperalpha),
-#         random.choice(num),
-#         random.choice(num),
-#         random.choice(spc),
-#         random.choice(spc)
-#     ]
-#     pswd += random.choices(loweralpha + upperalpha + num + spc, k = len - len(pswd))
-#     random.shuffle(pswd)
-#     print(f"Hard Password: {''.join(pswd)}")
+def hard():
+    len = random.randint(12, 16)
+    spcnum = random.randint(2, 3)
+    numnum = random.randint(2, 4)
+    upnum = random.randint(2, 4)
+    pswd = random.choices(spc, k = spcnum) + random.choices(num, k = numnum) + random.choices(upperalpha, k = upnum) + random.choices(loweralpha, k = len - spcnum - upnum - numnum)
+    printPass(pswd)
 
-print("What type of password would you like?")
+print("\nWhat type of password would you like?")
 print("1. Easy - 6 to 8 characters, only letters (optional uppercase)")
 print("2. Medium - 8 to 12 characters, at least 1 uppercase, 1 number, and 1 special character")
-print("3. Hard - 12 to 16 characters, at least 1 uppercase, 2 numbers, and 2 special characters")
+print("3. Hard - 12 to 16 characters, at least 2 uppercase, 2 numbers, and 2 special characters \n")
 
 ch = int(input('Enter your choice (1/2/3): '))
 if ch == 1:
     easy()
 elif ch == 2:
     medium()
-# elif ch == 3:
-#     hard()
+elif ch == 3:
+    hard()
 else:
     print('Invalid input.')
