@@ -59,3 +59,4 @@ No. | Name
 7 | [Fortune Cookie](https://github.com/vams-skn/python-projects/tree/main/Fortune%20Cookie)
 8 | [Chatbot](https://github.com/vams-skn/python-projects/tree/main/Chatbot)
 9 | [Random Password Generator](https://github.com/vams-skn/python-projects/tree/main/Random%20Password%20Generator)
+10 | [Wordle](https://github.com/vams-skn/python-projects/tree/main/Wordle)
